@@ -1,0 +1,22 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Variables
+    En Javascript las variables son como una "caja" para guardar datos.  A esta caja le podemos poner un nombre anteponiendo "let".  Por ejemplo let saludo = "Hola".  También le ponemos anteponer const a valores que no van a cambiar.  Por ejemplo const miCumpleaños = '01.01.2001'
+
+	* Strings
+    En Javascript un string es una serie de caracteres que están entre comillas que pueden ser simples o dobles.  Por ejemplo let string = "Kia Morning"
+
+	* Funciones (argumentos, `return`)
+    Las funciones son una serie de pasos que calculan un valor o un procedimiento.  Una funcion consiste en usar la palabra function seguido por el nombre de una funcion.  Luego esta funcion puede aceptar uno o varios inputs o argumentos y retorna un output o resultado.  Por ejemplo funcionSuma(a, b) { return a + b}.
+
+	* Declaraciones `if`
+    If se usa cuando hay una condicion que pueda resultar en verdadero o falso.  Por ejemplo,
+    function sonIguales(x, y) {
+    if (x === y) { return true}
+    return false
+
+	* Valores booleanos (`true`, `false`)
+    En programación suele haber la necesidad de un tipo de dato que represente dos valores opuestos por ejemplo, verdadero o falso, si o no.  Por ejemplo: 
+    let Si = true
+    let No = false
+
